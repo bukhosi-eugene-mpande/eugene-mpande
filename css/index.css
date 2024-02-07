@@ -1,3 +1,6 @@
-
+#banner-img {
+  max-height: 400px;
+  object-fit: cover;
+}
 
 /*# sourceMappingURL=index.css.map */
