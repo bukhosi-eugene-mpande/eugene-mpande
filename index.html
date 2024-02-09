@@ -8,6 +8,7 @@
 
         <!-- Style sheets-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/index.css">
     
     </head>
@@ -37,11 +38,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <a class="nav-link" href="./pages/projects.html">Projects</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Upcoming projects</a>
+                            <a class="nav-link" href="./pages/upcoming.html">Upcoming projects</a>
                         </li>
 
                         <li class="nav-item">
@@ -88,231 +89,569 @@
             </div>
         </nav>
 
-    <div class="overflow-hidden">
-        <div class="container-fluid col-xxl-8">
-            <div class="row flex-lg-nowrap  g-5">
-                <div class="order-lg-1 w-100">
-                    <img id="jacaranda" src="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo by Milad Fakurian" loading="lazy" srcset="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1080w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 150w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 300w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 768w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="2160" height="768">
-                </div>
-                <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
-                    <div class="lc-block mb-4">
-                        <div editable="rich">
-                            <h1 class="fw-bold display-3">Hi there my name is Eugene, I'm a software developer.</h1>
+        <div class="overflow-hidden">
+            <div class="container-fluid col-xxl-12">
+                <div class="row flex-lg-nowrap  g-5">
+                    <div class="order-lg-1 w-100">
+                        <img id="jacaranda" src="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo by Milad Fakurian" loading="lazy" srcset="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1080w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 150w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 300w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 768w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="2160" height="768">
+                    </div>
+                    <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
+                        <div class="lc-block mb-4">
+                            <div editable="rich">
+                                <h1 class="fw-bold display-3">Hi there my name is Eugene, I'm a software developer.</h1>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="lc-block mb-5">
-                        <div editable="rich">
-                            <p class="rfs-8"> Welcome to my personal website l'm am currently a computer science student a the university of pretoria. I aim to use this site show off my personal projects enjoy. 😁</p>
+                        <div class="lc-block mb-5">
+                            <div editable="rich">
+                                <p class="rfs-8"> Welcome to my personal website l'm am currently a computer science student a the university of pretoria. I aim to use this site show off my personal projects enjoy. 😁</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="lc-block mb-6"><a class="btn btn-primary px-4 me-md-2 btn-lg" href="#" role="button">Explore Projects</a>
+                        <div class="lc-block mb-6"><a class="btn btn-primary px-4 me-md-2 btn-lg" href="#" role="button">Explore Projects</a>
+                        </div>
+
                     </div>
 
                 </div>
-
             </div>
         </div>
-    </div>
 
-    <div class="container mt-5 py-2 py-lg-6" id="About_Me">
-        <div class="row align-items-center flex-lg-row-reverse">
-            <div class="col-lg-6 mb-5 mb-lg-0 ">
-                <div class="lc-block px-4"><!--  If you want to remove px-4 please add overflow-hidden class to the section -->
-                    <div class="position-relative">
-                        <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-dark mt-4 ms-4"> </div>
+        <div class="container mt-5 py-2 py-lg-6" id="About_Me">
+            <div class="row align-items-center flex-lg-row-reverse">
+                <div class="col-lg-6 mb-5 mb-lg-0 ">
+                    <div class="lc-block px-4"><!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+                        <div class="position-relative">
+                            <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-dark mt-4 ms-4"> </div>
 
-                        <img class="position-relative img-fluid rounded-3" 
-                            src="./images/about-me.jpg" 
-                            srcset="./images/about-me.jpg 1080w, 
-                                    ./images/about-me.jpg 150w, 
-                                    ./images/about-me.jpg 300w, 
-                                    ./images/about-me.jpg 768w, 
-                                    ./images/about-me.jpg 1024w"
-                            sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Thato Kalagobe">
+                            <img class="position-relative img-fluid rounded-3" 
+                                src="./images/about-me.jpg" 
+                                srcset="./images/about-me.jpg 1080w, 
+                                        ./images/about-me.jpg 150w, 
+                                        ./images/about-me.jpg 300w, 
+                                        ./images/about-me.jpg 768w, 
+                                        ./images/about-me.jpg 1024w"
+                                sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Thato Kalagobe">
+                        </div>
                     </div>
+                </div>
+                <div class="col-lg-6 ">
+                    <div class="lc-block mb-4">
+                        <div editable="rich">
+                            <h2 class="fw-bold display-5">About Me</h2>
+                        </div>
+                    </div>
+                    <div class="lc-block mb-5">
+                        <div editable="rich">
+                            <p class="lead text-muted">
+                                I'm Eugene, a computer science student at the University of Pretoria delving into the 
+                                intricacies of algorithms and code. While I immerse myself in programming, my interests 
+                                extend beyond the digital realm. I'm fascinated by the harmonious blend of form and 
+                                function in architecture, drawn to historical landmarks and modern marvels alike. 
+                                Yet, beyond architecture and programming, I find solace and inspiration in nature, 
+                                often escaping the urban jungle to hike and connect with the tranquility of the outdoors. 
+                                This website serves as my platform to share my experiences, projects, and thoughts on 
+                                these diverse passions. Feel free to reach out if you share any of these interests or 
+                                simply want to connect.                            
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="col-lg-6 ">
-                <div class="lc-block mb-4">
-                    <div editable="rich">
-                        <h2 class="fw-bold display-5">About Me</h2>
-                    </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="lc-block">
+                    <h2 editable="inline" class="display-2 mb-0"><b>My Timeline</b></h2>
                 </div>
-                <div class="lc-block mb-5">
+            </div>
+        </div>
+
+        <div class="container py-5 timeline position-relative">
+            <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <p editable="inline" class="lead">2015-2017</p>
+                    <h2 editable="inline" class="fw-bold rfs-12">Maryvale college</h2>
                     <div editable="rich">
-                        <p class="lead text-muted">
-                            I'm Eugene, a computer science student at the University of Pretoria delving into the 
-                            intricacies of algorithms and code. While I immerse myself in programming, my interests 
-                            extend beyond the digital realm. I'm fascinated by the harmonious blend of form and 
-                            function in architecture, drawn to historical landmarks and modern marvels alike. 
-                            Yet, beyond architecture and programming, I find solace and inspiration in nature, 
-                            often escaping the urban jungle to hike and connect with the tranquility of the outdoors. 
-                            This website serves as my platform to share my experiences, projects, and thoughts on 
-                            these diverse passions. Feel free to reach out if you share any of these interests or 
-                            simply want to connect.                            
+                        <p>
+                            For my first highschool I attended a school called Maryvale college. 
+                            Completing grade 8 to grade 10 there.
                         </p>
                     </div>
                 </div>
-
+            </div>
+            <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <p editable="inline" class="lead">2017-2019</p>
+                    <h2 editable="inline" class="fw-bold rfs-12">Basa Tutorial Institute</h2>
+                    <div editable="rich">
+                        <p>
+                            For my first highschool I attended a school called Basa Tutorial Institute. 
+                            Completing grade 11 to grade 12 there.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+                <div class="timeline-img"></div>
+                <div class="timeline-content">
+                    <p editable="inline" class="lead">2021-Present</p>
+                    <h2 editable="inline" class="fw-bold rfs-12">University of Pretoria</h2>
+                    <div editable="rich">
+                        <p>
+                            From 2021 i attened the University of pretoria where i am currently completeing Bsc in Computer Science
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="lc-block">
+                        <h2 editable="inline" class="display-2 mb-0"><b>Programming Languages</b></h2>
+                        <p editable="inline" class=""> These are programming languages i have experience in. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-4 text-center">
+                    <div class="lc-block">
+                        <img alt="" class="img-fluid" src="./images/C-Pro-Lang.svg" style="height:10vh">
+                        <h4 class="my-3" editable="inline"></h4>
+                        <p editable="inline">C </p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" alt="" src="./images/cpp.svg" style="height:10vh">
+                        <h4 class="my-3" editable="inline"></h4>
+                        <p editable="inline">C plus plus</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/python-5.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Python </p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/java.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Java </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/javascript.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">JavaScript </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="" class="img-fluid" src="./images/sql.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Sql </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="lc-block">
+                        <h2 editable="inline" class="display-2 mb-0"><b>Technologies and Frameworks</b></h2>
+                        <p editable="inline" class=""> These are technologies and frameworks i have experience in. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-4 text-center">
+                    <div class="lc-block">
+                        <img alt="" class="img-fluid" src="./images/html-5-svgrepo-com.svg" style="height:10vh">
+                        <h4 class="my-3" editable="inline"></h4>
+                        <p editable="inline">HTML</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" alt="" src="./images/bootstrap-svgrepo-com.svg" style="height:10vh">
+                        <h4 class="my-3" editable="inline"></h4>
+                        <p editable="inline">Bootstrap</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/tailwind-svgrepo-com.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Tailwind </p>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/angular-icon-svgrepo-com.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Angular </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="img-fluid" alt="" src="./images/react-svgrepo-com.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">React </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="" class="img-fluid" src="./images/nextjs-svgrepo-com.svg" style="height:10vh">
+                    <h4 class="my-3" editable="inline"></h4>
+                    <p editable="inline">Next js </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row align-items-md-center mb-5">
+                <div class="col-md-12">
+                    <div class="lc-block text-center">
+                        <h2 editable="inline" class="display-2 mb-0"><b>Projects</b></h2>
+                        <p editable="inline"> These are the projects l've completed. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-md-center mb-5">
+                <div class="col-lg-6 pr-5">
+                    <div class="lc-block py-2">
+                        <span class="badge bg-dark" editable="inline">PROJECT INFO</span>
+                    </div>
+
+                    <div class="lc-block mb-4">
+                        <h2 editable="inline">Building great projects.</h2>
+                    </div>
+
+                    <div class="lc-block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">3+</p>
+                                    <p editable="inline" class="small text-uppercase">Languages Used</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">14+</p>
+                                    <p editable="inline" class="small text-uppercase">Repositories</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">6+</p>
+                                    <p editable="inline" class="small text-uppercase">Public Repositories</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">360+</p>
+                                    <p editable="inline" class="small text-uppercase">Contributions in the last year</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block text-muted">
+                        <div editable="rich">
+                            <p> 
+                                Over the past year, I have undertaken a variety of projects to enhance my skills. 
+                                These projects have ranged from building websites to tackling coding challenges. 
+                                They have allowed me to gain experience in multiple languages and frameworks. 
+                                Here are a few of the projects I have completed
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 ">
+                    <div class="lc-block mb-4">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1525296143957-b62256c593bf?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 1" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Coffee</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1536060316316-2466bda904f1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 2" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Devices</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-4 mt-sm-0 align-self-center">
+                    <div class="lc-block">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1507831228884-93d43e81a99d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=632&amp;q=80" alt="Featured image 3" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Productivity</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-md-center mb-5">
+                <div class="col-md-12">
+                    <div class="lc-block text-center">
+                        <h2 editable="inline" class="display-2 mb-0"><b>Upcoming Projects</b></h2>
+                        <p editable="inline"> These are the projects l've planned for the next 12 months. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-md-center mb-5">
+                <div class="col-lg-6 pr-5">
+                    <div class="lc-block py-2">
+                        <span class="badge bg-dark" editable="inline">UPCOMING PROJECT INFO</span>
+                    </div>
+
+                    <div class="lc-block mb-4">
+                        <h2 editable="inline">Building great projects.</h2>
+                    </div>
+
+                    <div class="lc-block">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">2+</p>
+                                    <p editable="inline" class="small text-uppercase">Additinal Languages Used</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">7+</p>
+                                    <p editable="inline" class="small text-uppercase">New Repositories</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">4+</p>
+                                    <p editable="inline" class="small text-uppercase">New Public Repositories</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="lc-block mb-4">
+                                    <p editable="inline" class=" m-0" style="font-size:40px;">365+</p>
+                                    <p editable="inline" class="small text-uppercase">Additional Contributions Upcoming</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block text-muted">
+                        <div editable="rich">
+                            <p> 
+                                In the current year, I have several projects lined up to further enhance my skills. 
+                                These projects encompass a wide range of areas including website development, 
+                                software systems, coding challenges, and even a video game. I will be utilizing multiple 
+                                languages and frameworks for these projects. Here are a few articles detailing what to 
+                                expect, along with their respective timelines
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 ">
+                    <div class="lc-block mb-4">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1525296143957-b62256c593bf?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 1" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Coffee</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1536060316316-2466bda904f1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 2" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Devices</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 mt-4 mt-sm-0 align-self-center">
+                    <div class="lc-block">
+                        <div class="card shadow-sm border-light">
+                            <img src="https://images.unsplash.com/photo-1507831228884-93d43e81a99d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=632&amp;q=80" alt="Featured image 3" class="card-img-top" loading="lazy">
+                            <div class="card-body">
+                                <h3 class="card-title" editable="inline">Productivity</h3>
+                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
+                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <div class="lc-block">
-                <h2 editable="inline" class="display-2 mb-0"><b>My Timeline</b></h2>
-            </div>
-        </div>
-    </div>
+        <!--Section: Contact v.2-->
+        <section class="mb-4 container">
 
-    <div class="container py-5 timeline position-relative">
-        <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-            <div class="timeline-img"></div>
-            <div class="timeline-content">
-                <p editable="inline" class="lead">2015-2017</p>
-                <h2 editable="inline" class="fw-bold rfs-12">Maryvale college</h2>
-                <div editable="rich">
-                    <p>
-                        For my first highschool I attended a school called Maryvale college. 
-                        Completing grade 8 to grade 10 there.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-            <div class="timeline-img"></div>
-            <div class="timeline-content">
-                <p editable="inline" class="lead">2017-2019</p>
-                <h2 editable="inline" class="fw-bold rfs-12">Basa Tutorial Institute</h2>
-                <div editable="rich">
-                    <p>
-                        For my first highschool I attended a school called Basa Tutorial Institute. 
-                        Completing grade 11 to grade 12 there.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
-            <div class="timeline-img"></div>
-            <div class="timeline-content">
-                <p editable="inline" class="lead">2021-Present</p>
-                <h2 editable="inline" class="fw-bold rfs-12">University of Pretoria</h2>
-                <div editable="rich">
-                    <p>
-                        From 2021 i attened the University of pretoria where i am currently completeing Bsc in Computer Science
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me.</p>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="lc-block">
-                    <h2 editable="inline" class="display-2 mb-0"><b>Programming Languages</b></h2>
-                    <p editable="inline" class=""> These are programming languages i have experience in. </p>
-                </div>
-            </div>
-        </div>
+            <div class="row">
 
-        <div class="row pt-4">
-            <div class="col-md-4 text-center">
-                <div class="lc-block">
-                    <img alt="" class="img-fluid" src="./images/C-Pro-Lang.svg" style="height:10vh">
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">C </p>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <div class="lc-block">
-                    <img class="img-fluid" alt="" src="./images/cpp.svg" style="height:10vh">
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">C plus plus</p>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/python-5.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Python </p>
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/java.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Java </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/javascript.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">JavaScript </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img alt="" class="img-fluid" src="./images/sql.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Sql </p>
-            </div>
-        </div>
-    </div>
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <div class="lc-block">
-                    <h2 editable="inline" class="display-2 mb-0"><b>Technologies and Frameworks</b></h2>
-                    <p editable="inline" class=""> These are technologies and frameworks i have experience in. </p>
-                </div>
-            </div>
-        </div>
+                        <!--Grid row-->
+                        <div class="row">
 
-        <div class="row pt-4">
-            <div class="col-md-4 text-center">
-                <div class="lc-block">
-                    <img alt="" class="img-fluid" src="./images/html-5-svgrepo-com.svg" style="height:10vh">
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">HTML</p>
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <label for="message">Your message</label>
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary m-4" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Hatfield, Pretoria, SA</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>eugenempande@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
+
+        <section>
+            <div class="py-5 container bg-light position-relative rounded">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block mb-2">
+                            <img alt="logo" class="img-fluid" src="./images/bl-logo.svg" style="height:10vh">
+                        </div>
+                        <div class="lc-block text-dark mb-2">
+                            <div editable="rich">
+                                <h4>
+                                    <em>Building great projects.</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="lc-block text-dark text-center">
+                            <div editable="rich">
+                                <p>Copyright © Eugene Mpande</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 d-flex justify-content-center">
+                        <div class="lc-block text-center text-dark py-5 mx-2">
+                            <a class="text-decoration-none" href="https://github.com/Gini24mp">
+                                <img
+                                    src="./images/github.svg"
+                                    alt="logo"
+                                    width="41"
+                                    height="41"
+                                />
+                            </a>
+                        </div>
+                        <div class="lc-block text-center text-dark py-5 mx-2">
+                            <a class="text-decoration-none" href="https://www.linkedin.com/in/bukhosi-eugene-mpande-6a34a3198/">
+                                <img
+                                    src="./images/linkedin.svg"
+                                    alt="logo"
+                                    width="50"
+                                    height="50"
+                                />
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
-                <div class="lc-block">
-                    <img class="img-fluid" alt="" src="./images/bootstrap-svgrepo-com.svg" style="height:10vh">
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Bootstrap</p>
-                </div>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/tailwind-svgrepo-com.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Tailwind </p>
-            </div>
-        </div>
-        <div class="row pt-4">
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/angular-icon-svgrepo-com.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Angular </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="" src="./images/react-svgrepo-com.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">React </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img alt="" class="img-fluid" src="./images/nextjs-svgrepo-com.svg" style="height:10vh">
-                <h4 class="my-3" editable="inline"></h4>
-                <p editable="inline">Next js </p>
-            </div>
-        </div>
-    </div>
-    
+            <div class="container-fluid" lc-helper="background" style="height:30vh;background:url(./images/emily-jones-L6WsJ1WS2k8-unsplash.jpg)  center / cover no-repeat;margin-top:-100px"></div>
+        </section>
+
     </body>
-
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/index.js"></script>
+
 </html>
