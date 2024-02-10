@@ -19,7 +19,8 @@ const articles = [
                 "use":"Used to describe the appearance of Web content"
             }
         ],
-        "banner_img_src":"../../images/Narly-Skates-logo.png"
+        "banner_img_src":"../../images/Narly-Skates-logo.png",
+        "banner_img_alt":"Narly Skates"
     }
 ]
 
@@ -36,9 +37,17 @@ for (let i = 0; i < articles.length; i++) {
     }
 }
 
+//secodary outer container
+const Sec_Out_Art_Cont = document.createElement("div");
+Sec_Out_Art_Cont.className = "row g-5";
+Sec_Out_Art_Cont.id = "Sec_Out_Art_Cont";
+
+
 //Article outer container
 const article_container = document.createElement("div");
 article_container.className = "col-md-8";
+
+Sec_Out_Art_Cont.appendChild(article_container);
 
 //main article container
 const main_article = document.createElement("article");
@@ -51,6 +60,7 @@ article_container.appendChild(main_article);
 const article_heading = document.createElement("h2");
 article_heading.innerHTML = articles[index].title;
 article_heading.className = "blog-post-title";
+
 main_article.appendChild(article_heading);
 
 //article metadata
@@ -62,7 +72,7 @@ main_article.appendChild(article_metadata);
 
 //article paragraphs
 
-for (let i = articles[index].paragraphs.length-1; i <= 0; i--) {
+for (let i = articles[index].paragraphs.length-1; i >= 0; i--) {
     const p = document.createElement("p");
     p.innerHTML = articles[index].paragraphs[i];
     main_article.appendChild(p);
@@ -71,6 +81,8 @@ for (let i = articles[index].paragraphs.length-1; i <= 0; i--) {
 //tech and programming languages list header
 const tech_and_pro_langs_header = document.createElement("h3");
 tech_and_pro_langs_header.innerHTML = "Technologies and Programming Languages";
+
+main_article.appendChild(tech_and_pro_langs_header);
 
 //tech and programming languages list
 const tech_and_pro_langs_list = document.createElement("dl");
@@ -82,21 +94,25 @@ for (let i = 0; i < articles[index].tech_and_pro_langs.length; i++) {
     const dd = document.createElement("dd");
     dd.innerHTML = articles[index].tech_and_pro_langs[i].use;
 
-    tech_and_pro_langs_list.appendChild(dd);
     tech_and_pro_langs_list.appendChild(dt);
+    tech_and_pro_langs_list.appendChild(dd);
 }
+
+main_article.appendChild(tech_and_pro_langs_list);
 
 //creating the view on github button
 const view_on_github = document.createElement("a");
 view_on_github.href = articles[index].repo_link;
 view_on_github.innerHTML = "View on Github";
-view_on_github.className = "btn btn-primary";
+view_on_github.className = "btn btn-outline-primary";
 
 //view on github nav container
 const view_on_github_nav = document.createElement("nav");
 view_on_github_nav.appendChild(view_on_github);
 view_on_github_nav.className = "blog-pagination";
 view_on_github.ariaLabel = "Pagination";
+
+article_container.appendChild(view_on_github_nav);
 
 // creating the about box
 
@@ -150,7 +166,18 @@ about_container_secondary.appendChild(about_container);
 about_container_secondary.className = "col-md-4";
 
 //adding the about box to the secondary outer article container
-document.getElementById("Sec_Out_Art_Cont").appendChild(about_container_secondary);
+Sec_Out_Art_Cont.appendChild(about_container_secondary);
 
+//article banner
+const article_banner_cont = document.createElement("div");
+article_banner_cont.className="p-2 p-md-2 mb-2 text-white rounded hg-60-vh";
 
+const article_banner_img = document.createElement("img");
+article_banner_img.className="img-fluid w-100 h-100 rounded-5";
+article_banner_img.src=articles[index].banner_img_src;
+article_banner_img.alt=articles[index].banner_img_alt;
 
+article_banner_cont.appendChild(article_banner_img);
+
+document.getElementById("main-cont").appendChild(article_banner_cont);
+document.getElementById("main-cont").appendChild(Sec_Out_Art_Cont);
