@@ -37,7 +37,7 @@
     border-width: 10px 15px 10px 0;
     border-color: transparent var(--bs-light) transparent transparent;
 }
-    .timeline-item::after {
+.timeline-item::after {
     content: "";
     display: block;
     clear: both;
@@ -49,6 +49,7 @@
     border-radius: 4px;
     background: var(--bs-light);
 }
+
 .timeline-content::after {
     content: "";
     position: absolute;
@@ -60,6 +61,7 @@
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent var(--bs-light);
 }
+
 .timeline-img {
     width: 30px;
     height: 30px;
@@ -70,6 +72,7 @@
     margin-top: 25px;
     margin-left: -15px;
 }
+
 @media screen and (max-width: 768px) {
     .timeline::before {
         left: 50px;

@@ -13,7 +13,19 @@
 }
 
 .bg-light-purple{
-    background-color: #f5f5f5;
+    background-color: rgb(238 242 255);
+}
+
+.purple-btn{
+    background-color: white;
+    border-color: rgb(139 92 246);
+    color: rgb(139 92 246);
+    font-weight: bolder;
+}
+
+.purple-btn:hover{
+    background-color: rgb(139 92 246);
+    border-color: rgb(139 92 246);
 }
 
 .project-header{
@@ -23,4 +35,62 @@
 .project-text{
     font-family: "Exo 2","Poor Story","Roboto", sans-serif;
     font-weight: 300;
+}
+
+.tp-nav{
+    background-color: rgb(238 242 255);
+    --bs-bg-opacity: 1;
+    font-size: x-large;
+  }
+  
+  .active{
+    font-weight: bolder;
+  }
+  
+  .bg-light-purple{
+    background-color: rgb(238 242 255);
+  }
+  
+  .tp-2{
+    top: 2rem;
+}
+
+.hg-60-vh{
+    height: 60vh;
+}
+
+.hg-10-vh{
+    height: 10vh;
+}
+
+.footer-bg-img{
+    height: 30vh;
+    background: url(../../images/emily-jones-L6WsJ1WS2k8-unsplash.jpg)  center / cover no-repeat;
+    margin-top: -100px;
+}
+
+.nav-link:hover{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-family: "Poor Story","Roboto", sans-serif;
+    font-size: 2rem;
+}
+
+.card-text{
+    font-family: "Exo 2","Poor Story","Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem; 
+}
+
+.blog-card{
+    height: 80vh;
+}
+
+.card-image{
+    height: 60%;
+    width: 100%;
 }
