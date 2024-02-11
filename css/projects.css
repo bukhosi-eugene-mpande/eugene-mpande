@@ -1,0 +1,15 @@
+.hg-90-vh {
+  height: 90vh;
+}
+
+.hg-10-vh {
+  height: 10vh;
+}
+
+.footer-bg-img {
+  height: 30vh;
+  background: url(../../images/emily-jones-L6WsJ1WS2k8-unsplash.jpg) center/cover no-repeat;
+  margin-top: -100px;
+}
+
+/*# sourceMappingURL=projects.css.map */
