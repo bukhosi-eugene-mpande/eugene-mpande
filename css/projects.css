@@ -92,8 +92,12 @@
 }
 
 .card-image {
-  height: 60%;
+  height: 50vh;
   width: 100%;
+}
+
+.cd:hover {
+  padding: 0px;
 }
 
 /*# sourceMappingURL=projects.css.map */

@@ -4,24 +4,31 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="images/logo" href="../images/white-logo.ico">
-        <title>Eugene Mpande</title>
+        <title>Upcoming Projects</title>
 
         <!-- Style sheets-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/projects.scss">
-
         <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poor Story|Roboto|Exo 2" rel="stylesheet">
 
+        <!-- custom style sheets -->
+        <link rel="stylesheet" href="../css/projects.css">
     
     </head>
 
-    <body>
+    <body class="bg-light">
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg tp-nav">
             <div class="container-fluid">
                 <a class="navbar-brand text-center" href="/index.html">
-                    <img src="../images/bl-logo.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+                    <img 
+                        src="../images/bl-logo.svg" 
+                        alt="Logo" 
+                        width="50" 
+                        height="50" 
+                        class="d-inline-block align-text-center"
+                    >
                     Eugene Mpande
                 </a>
 
@@ -49,7 +56,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="/">Contact Me</a>
                         </li>
 
                     </ul>
@@ -64,7 +71,7 @@
                     >
 
                     <img
-                        src="../images/github.svg"
+                        src="../../images/github.svg"
                         alt="logo"
                         width="41"
                         height="41"
@@ -80,7 +87,7 @@
                     >
 
                     <img
-                        src="../images/linkedin.svg"
+                        src="../../images/linkedin.svg"
                         alt="logo"
                         width="50"
                         height="50"
@@ -93,138 +100,370 @@
         
         </nav>
 
-        <div class="container-fluid p-0"> <!-- Add p-0 class to remove default padding -->
+        <div class="container-fluid p-2">
             <div class="carousel slide" id="main-carousel" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#main-carousel" data-slide-to="1"></li>
                     <li data-target="#main-carousel" data-slide-to="2"></li>
                     <li data-target="#main-carousel" data-slide-to="3"></li>
-                </ol><!-- /.carousel-indicators -->
+                    <li data-target="#main-carousel" data-slide-to="4"></li>
+                    <li data-target="#main-carousel" data-slide-to="5"></li>
+                    <li data-target="#main-carousel" data-slide-to="6"></li>
+                    <li data-target="#main-carousel" data-slide-to="7"></li>
+                </ol>
                 
                 <div class="carousel-inner">
-                    <div class="carousel-item active " style="height: 90vh;">
-                        <img class="d-block w-100 " src="https://s19.postimg.cc/qzj5uncgj/slide1.jpg" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h1>Mountain</h1>
+                    <div class="carousel-item active hg-90-vh" >
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/sigmund-4UGmm3WRUoQ-unsplash-projects.jpg" 
+                            alt=""
+                        >
+                        <div class="carousel-caption d-none d-md-block ">
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Upcoming Projects
+                                </span>
+                            </h1>
                         </div>
                     </div>
-                    <div class="carousel-item " style="height: 90vh;">
-                        <img class="d-block w-100 " src="https://s19.postimg.cc/lmubh3h0j/slide2.jpg" alt="">
+                    
+                    <div class="carousel-item hg-90-vh" id="SchoolWebsite">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/library.jpg" 
+                            alt=""
+                        >
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Mountain</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    School Website Project
+                                </span>
+                            </h1>
                         </div>
                     </div>
-                    <div class="carousel-item " style="height: 90vh;">
-                        <img class="d-block w-100 " src="https://s19.postimg.cc/99hh9lr5v/slide3.jpg" alt="">
+                    
+                    <div class="carousel-item hg-90-vh" id="RockPaperScissors">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/pexels-thirdman-8926558-banner.jpg" 
+                            alt=""
+                        >
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Mountain</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Rock Paper Scissors Project
+                                </span>
+                            </h1>
                         </div>
                     </div>
-                    <div class="carousel-item " style="height: 90vh;">
-                        <img class="d-block w-100 " src="https://s19.postimg.cc/nenabzsnn/slide4.jpg" alt="">
+                    
+                    <div class="carousel-item hg-90-vh" id="sketch">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/sketch-banner.png" 
+                            alt=""
+                        >
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>Mountain</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci esse vitae exercitationem fugit, numquam minus!</p>
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Etch A Sketch Project
+                    
+                                </span>
+                            </h1>
+                        
                         </div>
                     </div>
-                </div><!-- /.carousel-inner -->
+                    
+                    <div class="carousel-item hg-90-vh" id="landingPage">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/narly-skates-banner.png" 
+                            alt=""
+                        >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Landing Page Project
+                                    
+                                </span>
+                            </h1>
+
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item hg-90-vh" id="OdinRecipes">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/odin-recipes-banner.png" 
+                            alt=""
+                        >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Odin Recipes Project
+                                    
+                                </span>
+                            </h1>
+                        
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item hg-90-vh" id="KitchenOfSecrets">
+                        <img 
+                            class="d-block w-100 " 
+                            src="../images/article-banner-images/kos-banner.png" 
+                            alt=""
+                        >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>
+                                <span class="project-header text-bg-light p-2 rounded-4 px-3">
+                                    Kitchen of Secrets Project
+                                </span>
+                            </h1>
+                        
+                        </div>
+                    </div>
+
+                </div>
                 
-                <a href="#main-carousel" class="carousel-control-prev" data-slide="prev">
+                <a href="#main-carousel" class="carousel-control-prev" data-slide="prev" title="prev">
                     <span class="carousel-control-prev-icon"></span>
                     <span class="sr-only" aria-hidden="true">Prev</span>
                 </a>
-                <a href="#main-carousel" class="carousel-control-next" data-slide="next">
+
+                <a href="#main-carousel" class="carousel-control-next" data-slide="next" title="next">
                     <span class="carousel-control-next-icon"></span>
                     <span class="sr-only" aria-hidden="true">Next</span>
                 </a>
-            </div><!-- /.carousel -->
-        </div><!-- /.container-fluid -->
-   
-        
-        <div class="container-fluid">
-            <div class="row row-cols-1 row-cols-md-3 g-0 overflow-hidden">
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-0 overflow-hidden">
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="lc-block card">
-                        <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Sunset</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
-                            <a href="" class="btn btn-outline-success btn-sm">Read More</a>
-                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
-                        </div>
-                    </div>
+        </div>
+   
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="lc-block">
+                    <h2 editable="inline" class="display-2 mb-0 p-2 project-header">
+                        <b>Upcoming Projects</b>
+                    </h2>
+                    <p editable="inline" class="project-text fs-5"> 
+                        These are some of the projects i plan to 
+                        complete during the course of the year. 
+                    </p>
                 </div>
             </div>
         </div>
+        
+        <div class="row pt-4">
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="narly skates logo" 
+                        class="img-fluid rounded-top-5 card-image" 
+                        src="../images/article-card-images/narly-skates-card.png" 
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        Landing Page Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the landing page project 
+                        as part of the Odin Project
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="Kitchen of secrets logo" 
+                        class="card-image img-fluid rounded-top-5" 
+                        src="../images/article-card-images/kos-card.png" 
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        Kitchen Of Secrets Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the Kitchen of secrets 
+                        project as part of my Design patterns course.
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="Odin recipes logo" 
+                        class="card-image img-fluid rounded-top-5" 
+                        src="../images/article-card-images/odin-recipes-card.png" 
+                        
+
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        Odin Recipes Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the Odin Recipes project 
+                        as part of the Odin Project
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-4">
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="Picture of a Rock Paper Scissors" 
+                        class="card-image img-fluid rounded-top-5" 
+                        src="../images/article-card-images/pexels-darina-belonogova-8789755-card.jpg" 
+                        
+
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        Rock Paper Scissors Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the Rock Paper Scissors 
+                        project as part of the Odin Project
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="Picture of a netball game" 
+                        class="card-image img-fluid rounded-top-5" 
+                        src="../images/article-card-images/school-card.jpg" 
+                        
+
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        School Website Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the School Website I made 
+                        for a school in mpumalanga 
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center py-2 pb-4">
+                <div class="lc-block p-2 rounded-5 bg-light-purple">
+                    <img 
+                        alt="Etch A Sketch logo" 
+                        class="card-image img-fluid rounded-top-5" 
+                        src="../images/article-card-images/sketch-card.png" 
+                        
+
+                    >
+                    <h5 class="my-1 card-title" editable="inline">
+                        Etch A Sketch Project
+                    </h5>
+                    <p editable="inline">
+                        This blog details the making of the Etch A Sketch project 
+                        as part of the Odin Project
+                    </p>
+                    <a 
+                        href="./articles/landing-page.html" 
+                        class="btn btn-primary purple-btn"
+                    >
+                    Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="py-5 container bg-light-purple position-relative rounded">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="lc-block mb-2">
+                            <img 
+                                alt="logo" 
+                                class="img-fluid hg-10-vh" 
+                                src="../images/bl-logo.svg"
+                            >
+                        </div>
+                        <div class="lc-block text-dark mb-2">
+                            <div editable="rich">
+                                <h4>
+                                    <em>Building great projects.</em>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="lc-block text-dark text-center">
+                            <div editable="rich">
+                                <p>Copyright © Eugene Mpande</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 d-flex justify-content-center">
+                        <div class="lc-block text-center text-dark py-5 mx-2">
+                            <a class="text-decoration-none" href="https://github.com/Gini24mp">
+                                <img
+                                    src="../images/github.svg"
+                                    alt="logo"
+                                    width="41"
+                                    height="41"
+                                />
+                            </a>
+                        </div>
+                        <div class="lc-block text-center text-dark py-5 mx-2">
+                            <a class="text-decoration-none" href="https://www.linkedin.com/in/bukhosi-eugene-mpande-6a34a3198/">
+                                <img
+                                    src="../images/linkedin.svg"
+                                    alt="logo"
+                                    width="50"
+                                    height="50"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid footer-bg-img" lc-helper="background"></div>
+        </section>       
         
 
     </body>
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/projects.js"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    
+    <!-- custom script -->
+    <script src="../js/projects.js"></script>
 
 </html>
