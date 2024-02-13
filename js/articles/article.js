@@ -21,6 +21,225 @@ const articles = [
         ],
         "banner_img_src":"../../images/Narly-Skates-logo.png",
         "banner_img_alt":"Narly Skates"
+    },
+    {
+        "title":"Kitchen Of Secrets Project",
+        "date":"13 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the Kichen Of Secrets project as part of my Design Patterns course.",
+        "repo_link":"https://github.com/Gini24mp/Kitchen-of-Secrets",
+        "paragraphs":[
+            "I would like to begin by expressing my gratitude to my teammates Ayanda, Chenoa, Thato, Ashley, and Joshua for their invaluable contributions to the Kitchen of Secrets project. Without their collaboration, the project would not have reached its current form.",
+            "Our project aimed to create a restaurant simulator, and after deliberation, we opted for the concept of a restaurant tycoon game. Understanding that a restaurant operates as a complex system with numerous interconnected processes, we embarked on the challenge of simulating this intricate environment. From seating guests to food preparation at various stations, each aspect was meticulously considered to offer a realistic and engaging experience to players. Throughout the development process, we encountered and successfully addressed numerous challenges, drawing upon the design patterns we had learned during the semester.",
+            "In this blog post, I will provide insight into my specific contributions to the project. As part of the backend subsystems, I took charge of the kitchen subsystem. This involved overseeing the intricacies of food preparation across different workstations within the virtual restaurant. Our implementation was primarily in C++, and detailed information regarding this can be found in the project's final report available on our GitHub repository.",
+            "Additionally, I was responsible for integrating the subsystems into a cohesive system that could seamlessly interface with the frontend. Moreover, I undertook the task of managing automated testing, which we accomplished using GitHub Actions alongside Google Tests.",
+            "Overall, this project served as an enjoyable culmination of the semester, providing valuable insights into the application of design patterns in modern code development.",
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"C plus plus (C++)",
+                "use":"This language was used to implement the backend of the project"
+            },
+            {
+                "name":"YAML",
+                "use":"Used for automated testing of the project using github actions"
+            },
+            {
+                "name":"Google Test",
+                "use":"Used for automated testing of the project"
+            },
+            {
+                "name":"React",
+                "use":"Used to create the front end of the project"
+            },
+            {
+                "name":"JavaScript",
+                "use":"Used to build the react components of the front end"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/kos-banner.png",
+        "banner_img_alt":"Kitchen Of Secrets Banner"
+    },
+    {
+        "title":"Odin Recipes Project",
+        "date":"13 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the Odin Recipes Project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/odin-recipes",
+        "paragraphs":[
+            "To refine my skills in web design, I have embarked on The Odin Project, an educational endeavor aimed at enhancing proficiency in this domain. One of the fundamental tasks within this project was the creation of a basic web page using solely HTML and CSS, with the objective of establishing a recipe sharing platform called Odin Recipes.",
+            "Odin Recipes served as a platform dedicated to sharing exquisite culinary creations. The website comprised a main page featuring an array of available meals, along with individual pages dedicated to each recipe, providing detailed insights into the culinary delights showcased.",
+            "This project proved instrumental in elevating my comprehension of CSS. Prohibiting the use of libraries such as Bootstrap and Tailwind compelled me to delve deeply into the core principles of CSS, thereby significantly augmenting my understanding. This challenge, although daunting initially, ultimately proved immensely beneficial as it expanded my skill set and fortified my foundational knowledge.",
+            "In conclusion, The Odin Project offered a gratifying and invaluable experience, refining my design capabilities both technically and creatively, and furthering my journey in the realm of web design."
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/odin-recipes-banner.png",
+        "banner_img_alt":"Odin Recipes Banner"
+    },
+    {
+        "title":"Rock Paper Scissors Project",
+        "date":"13 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the Rock Paper Scissors project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/rock-paper-scissors",
+        "paragraphs":[
+            "To refine my skills in web design, I've embarked on The Odin Project, an educational initiative aimed at bolstering proficiency in this field. As part of this endeavor, I tackled a fundamental task: creating a rock-paper-scissors game using only HTML, CSS, and JavaScript.",
+            "The game provided users with the opportunity to engage in the classic rock-paper-scissors challenge against the computer. Upon selecting their choice—rock, paper, or scissors—the computer, employing JavaScript, would randomly choose its own. The outcome would then be displayed on the page, indicating whether the user had triumphed, the result was a tie, or the computer emerged victorious.",
+            "This project served as a pivotal step in solidifying my understanding of JavaScript fundamentals. Though not overly challenging, it served as an effective gauge of my proficiency in the language.",
+            "In conclusion, The Odin Project continues to enrich my comprehension of web development, furnishing a rewarding and invaluable experience. It has been instrumental in refining my design capabilities—both technically and creatively—and propelling my journey within the realm of web design."
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            },
+            {
+                "name":"JavaScript (JS)",
+                "use":"Used to create the game logic and functionality"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/pexels-thirdman-8926558-banner.jpg",
+        "banner_img_alt":"Rock Paper Scissors Banner"
+    },
+    {
+        "title":"School Website Project",
+        "date":"13 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of a Shcool Website.",
+        "repo_link":"https://github.com/Gini24mp/SchoolWebsite",
+        "paragraphs":[
+            "Upon receiving a request from a family friend, I undertook the task of creating a website for Proverbs Private College, located in the Mpumalanga province. For this endeavor, I opted to utilize Next.js for website development, Tailwind for styling, and intend to incorporate Node.js for the backend.",
+            "The decision to employ Next.js stemmed from its status as a React framework renowned for exceptional search engine optimization—an imperative feature for the school's online presence. Tailwind was selected due to its user-friendly nature, particularly beneficial for larger projects. Additionally, the abundance of pre-designed components played a pivotal role in its selection. The integration of Node.js aims to streamline maintenance by unifying the development environment.",
+            "Presently, the website encompasses eight pages: home, about, academics, admissions, arts, contact, news, and sports. Building this platform has been a delightful experience, facilitated by the seamless synergy between Tailwind and Next.js.",
+            "Moving forward, I am committed to enhancing the website's functionality and aesthetics, with regular updates to be shared on GitHub."
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"Next.js",
+                "use":"Next.js was used to create the website"
+            },
+            {
+                "name":"Tainwind",
+                "use":"Tailwind was used to style the website"
+            },
+            {
+                "name":"JavaScript (JS)",
+                "use":"JavaScript was used to create the website's functionality"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/library.jpg",
+        "banner_img_alt":"library book shelf"
+    },
+    {
+        "title":"Etch A Sketch Project",
+        "date":"13 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the Etch A Sketch project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/etch-a-sketch",
+        "paragraphs":[
+            "To advance my expertise in web design, I've embarked on The Odin Project, an educational initiative dedicated to refining skills in this field. Among the core tasks within this project was the creation of a sketch pad using only HTML, CSS, and JavaScript.",
+            "Throughout this endeavor, I challenged myself to develop a browser-based rendition of a sketchpad, drawing inspiration from traditional sketchpads and Etch-A-Sketch toys. This project served as a platform to augment my proficiency in DOM manipulation, necessitating the dynamic generation of a grid of squares and the implementation of hover effects using JavaScript and CSS. Users could employ their cursor to hover over tiles, triggering changes in background color—a fundamental feature for drawing functionality.",
+            "Undoubtedly, this project proved pivotal in establishing the groundwork for my JavaScript knowledge. While it posed certain challenges, particularly in the utilization of flexbox and dynamically generating HTML, I found the endeavor both enjoyable and rewarding. Overcoming these hurdles ultimately heightened the satisfaction upon completion.",
+            "In summation, The Odin Project remains instrumental in fostering my understanding of web development, offering a gratifying and invaluable experience. It continues to refine my design capabilities, both technically and creatively, further propelling my journey within the realm of web design."
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            },
+            {
+                "name":"JavaScript (JS)",
+                "use":"Used to create the functionality"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/sketch-banner.png",
+        "banner_img_alt":"Etch A Sketch Banner"
+    },
+    {
+        "title":"Grape Quest Project",
+        "date":"09 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the landing page project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "paragraphs":[
+            "",
+            ""
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
+        "banner_img_alt":"Narly Skates"
+    },
+    {
+        "title":"Movie Atlas Project",
+        "date":"09 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the landing page project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "paragraphs":[
+            "",
+            ""
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
+        "banner_img_alt":"Narly Skates"
+    },
+    {
+        "title":"Advent Of Code Project",
+        "date":"09 February 2024",
+        "author":"Bukhosi Eugene Mpande",
+        "about":"This blog details the making of the landing page project as part of the Odin Project",
+        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "paragraphs":[
+            "",
+            ""
+        ],
+        "tech_and_pro_langs":[
+            {
+                "name":"HyperText Markup Language (HTML)",
+                "use":"The language was used to describe and define the content of a Web page"
+            },
+            {
+                "name":"Cascading Style Sheets (CSS)",
+                "use":"Used to describe the appearance of Web content"
+            }
+        ],
+        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
+        "banner_img_alt":"Narly Skates"
     }
 ]
 
@@ -72,7 +291,7 @@ main_article.appendChild(article_metadata);
 
 //article paragraphs
 
-for (let i = articles[index].paragraphs.length-1; i >= 0; i--) {
+for (let i = 0; i < articles[index].paragraphs.length; i++) {
     const p = document.createElement("p");
     p.innerHTML = articles[index].paragraphs[i];
     main_article.appendChild(p);

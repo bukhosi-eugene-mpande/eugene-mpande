@@ -3,7 +3,14 @@
 .tp-nav{
   background-color: rgb(238 242 255);
   --bs-bg-opacity: 1;
-  font-size: x-large;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "Poor Story","Roboto", sans-serif;
+}
+
+.nav-link:hover{
+  font-size: 2.25rem;
+  font-weight: bolder;
 }
 
 .active{
