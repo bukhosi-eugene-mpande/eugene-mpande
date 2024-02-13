@@ -9,16 +9,23 @@
         <!-- Style sheets-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poor Story|Roboto|Exo 2" rel="stylesheet">
         <link rel="stylesheet" href="./css/index.css">
     
     </head>
 
     <body>
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg tp-nav" id="navigation-bar">
             <div class="container-fluid">
-                <a class="navbar-brand text-center" href="/index.html">
-                    <img src="./images/bl-logo.svg" alt="Logo" width="50" height="50" class="d-inline-block align-text-center">
+                <a class="navbar-brand text-center font-2-rem" href="/">
+                    <img 
+                        src="./images/bl-logo.svg" 
+                        alt="Logo" 
+                        width="80" 
+                        height="80" 
+                        class="d-inline-block align-text-center"
+                    >
                     Eugene Mpande
                 </a>
 
@@ -34,7 +41,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#About_Me">About Me</a>
+                            <a class="nav-link" href="#about-me">About Me</a>
                         </li>
 
                         <li class="nav-item">
@@ -46,7 +53,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Me</a>
+                            <a class="nav-link" href="/">Contact Me</a>
                         </li>
 
                     </ul>
@@ -87,28 +94,53 @@
                 </div>
 
             </div>
+        
         </nav>
 
-        <div class="overflow-hidden">
+        <div class="overflow-hidden" id="home-hero">
             <div class="container-fluid col-xxl-12">
                 <div class="row flex-lg-nowrap  g-5">
                     <div class="order-lg-1 w-100">
-                        <img id="jacaranda" src="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg" class="d-block mx-lg-auto img-fluid" alt="Photo by Milad Fakurian" loading="lazy" srcset="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1080w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 150w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 300w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 768w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="2160" height="768">
+                        <img 
+                            id="jacaranda" 
+                            src="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg" 
+                            class="d-block mx-lg-auto img-fluid" 
+                            alt="Photo by Milad Fakurian" 
+                            loading="lazy" 
+                            srcset="./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1080w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 150w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 300w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 768w, ./images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg 1024w" 
+                            sizes="(max-width: 1080px) 100vw, 1080px" 
+                            width="2160" 
+                            height="768"
+                        >
                     </div>
                     <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
                         <div class="lc-block mb-4">
                             <div editable="rich">
-                                <h1 class="fw-bold display-3">Hi there my name is Eugene, I'm a software developer.</h1>
+                                <h1 class="fw-bold display-3 font-Poor-Story ">
+                                    Hi there my name is Eugene, I'm a software developer.
+                                </h1>
                             </div>
                         </div>
 
                         <div class="lc-block mb-5">
                             <div editable="rich">
-                                <p class="rfs-8"> Welcome to my personal website l'm am currently a computer science student a the university of pretoria. I aim to use this site show off my personal projects enjoy. 😁</p>
+                                <p class="rfs-8 font-Exo-2 hero-text">
+                                    Welcome to my personal website l'm am currently a 
+                                    computer science student a the university of pretoria. 
+                                    I aim to use this site show off my personal projects enjoy. 
+                                    😁
+                                </p>
                             </div>
                         </div>
 
-                        <div class="lc-block mb-6"><a class="btn btn-primary px-4 me-md-2 btn-lg" href="#" role="button">Explore Projects</a>
+                        <div class="lc-block mb-6 font-Exo-2">
+                            <a 
+                                class="btn btn-primary px-4 me-md-2 btn-lg" 
+                                href="./pages/projects.html" 
+                                role="button"
+                            >
+                                Explore Projects
+                            </a>
                         </div>
 
                     </div>
@@ -117,33 +149,39 @@
             </div>
         </div>
 
-        <div class="container mt-5 py-2 py-lg-6" id="About_Me">
+        <div class="container mt-5 py-2 py-lg-6" id="about-me">
             <div class="row align-items-center flex-lg-row-reverse">
                 <div class="col-lg-6 mb-5 mb-lg-0 ">
-                    <div class="lc-block px-4"><!--  If you want to remove px-4 please add overflow-hidden class to the section -->
+                    <div class="lc-block px-4">
                         <div class="position-relative">
-                            <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-dark mt-4 ms-4"> </div>
+                            <div class="lc-block position-absolute top-0 start-0 w-100 h-100 bg-dark mt-4 ms-4 rounded-4"> </div>
 
-                            <img class="position-relative img-fluid rounded-3" 
+                            <img class="position-relative img-fluid rounded-4" 
                                 src="./images/about-me.jpg" 
                                 srcset="./images/about-me.jpg 1080w, 
                                         ./images/about-me.jpg 150w, 
                                         ./images/about-me.jpg 300w, 
                                         ./images/about-me.jpg 768w, 
                                         ./images/about-me.jpg 1024w"
-                                sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Thato Kalagobe">
+                                sizes="(max-width: 1080px) 100vw, 1080px" 
+                                width="1080" 
+                                height="1080" 
+                                alt="Photo of Eugene Mpande by Thato Kalagobe"
+                            >
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 ">
                     <div class="lc-block mb-4">
                         <div editable="rich">
-                            <h2 class="fw-bold display-5">About Me</h2>
+                            <h2 class="fw-bold display-1 font-Poor-Story">
+                                About Me
+                            </h2>
                         </div>
                     </div>
                     <div class="lc-block mb-5">
                         <div editable="rich">
-                            <p class="lead text-muted">
+                            <p class="lead font-Exo-2 text-muted">
                                 I'm Eugene, a computer science student at the University of Pretoria delving into the 
                                 intricacies of algorithms and code. While I immerse myself in programming, my interests 
                                 extend beyond the digital realm. I'm fascinated by the harmonious blend of form and 
@@ -161,23 +199,32 @@
             </div>
         </div>
         
-        <div class="row">
+        <div class="row pt-4" id="my-timeline-header">
             <div class="col-md-12 text-center">
                 <div class="lc-block">
-                    <h2 editable="inline" class="display-2 mb-0"><b>My Timeline</b></h2>
+                    <h2 editable="inline" class="fw-bold display-2 mb-0 font-Poor-Story">
+                        <b>
+                            My Timeline
+                        </b>
+                    </h2>
                 </div>
             </div>
         </div>
 
-        <div class="container py-5 timeline position-relative">
+        <div id="my-timeline-content" class="container py-5 timeline position-relative">
             <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                 <div class="timeline-img"></div>
                 <div class="timeline-content">
-                    <p editable="inline" class="lead">2015-2017</p>
-                    <h2 editable="inline" class="fw-bold rfs-12">Maryvale college</h2>
-                    <div editable="rich">
+                    <p editable="inline" class="lead font-Exo-2">
+                        2015-2017
+                    </p>
+                    <h2 editable="inline" class="fw-bold rfs-12 font-Poor-Story">
+                        Maryvale college
+                    </h2>
+                    <div editable="rich" class="font-Exo-2">
                         <p>
-                            For my first highschool I attended a school called Maryvale college. 
+                            For my first highschool I attended a school called 
+                            Maryvale college. 
                             Completing grade 8 to grade 10 there.
                         </p>
                     </div>
@@ -186,11 +233,16 @@
             <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                 <div class="timeline-img"></div>
                 <div class="timeline-content">
-                    <p editable="inline" class="lead">2017-2019</p>
-                    <h2 editable="inline" class="fw-bold rfs-12">Basa Tutorial Institute</h2>
-                    <div editable="rich">
+                    <p editable="inline" class="lead font-Exo-2">
+                        2017-2019
+                    </p>
+                    <h2 editable="inline" class="fw-bold rfs-12 font-Poor-Story">
+                        Basa Tutorial Institute
+                    </h2>
+                    <div editable="rich" class="font-Exo-2">
                         <p>
-                            For my first highschool I attended a school called Basa Tutorial Institute. 
+                            For my first highschool I attended a school called Basa 
+                            Tutorial Institute. 
                             Completing grade 11 to grade 12 there.
                         </p>
                     </div>
@@ -199,23 +251,34 @@
             <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                 <div class="timeline-img"></div>
                 <div class="timeline-content">
-                    <p editable="inline" class="lead">2021-Present</p>
-                    <h2 editable="inline" class="fw-bold rfs-12">University of Pretoria</h2>
-                    <div editable="rich">
+                    <p editable="inline" class="lead font-Exo-2">
+                        2021-Present
+                    </p>
+                    <h2 editable="inline" class="fw-bold rfs-12 font-Poor-Story">
+                        University of Pretoria
+                    </h2>
+                    <div editable="rich" class="font-Exo-2">
                         <p>
-                            From 2021 i attened the University of pretoria where i am currently completeing Bsc in Computer Science
+                            From 2021 i attened the University of pretoria 
+                            where i am currently completeing Bsc in Computer Science
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container pt-3" id="programming-languages">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="lc-block">
-                        <h2 editable="inline" class="display-2 mb-0"><b>Programming Languages</b></h2>
-                        <p editable="inline" class=""> These are programming languages i have experience in. </p>
+                        <h2 editable="inline" class="display-2 mb-0 font-Poor-Story">
+                            <b>
+                                Programming Languages
+                            </b>
+                        </h2>
+                        <p editable="inline" class="pt-3 font-Exo-2"> 
+                            These are programming languages i have experience in. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -223,49 +286,83 @@
             <div class="row pt-4">
                 <div class="col-md-4 text-center">
                     <div class="lc-block">
-                        <img alt="" class="pro-lang-logo img-fluid" src="./images/C-Pro-Lang.svg" >
-                        <h4 class="my-3" editable="inline"></h4>
-                        <p editable="inline">C </p>
+                        <img 
+                            alt="C programming language logo" 
+                            class="pro-lang-logo img-fluid" 
+                            src="./images/C-Pro-Lang.svg"
+                        >
+                        <h4 class="my-3 font-Poor-Story" editable="inline">
+                            C
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="lc-block">
-                        <img class="pro-lang-logo img-fluid" alt="" src="./images/cpp.svg" >
-                        <h4 class="my-3" editable="inline"></h4>
-                        <p editable="inline">C plus plus</p>
+                        <img 
+                            class="pro-lang-logo img-fluid" 
+                            alt="C plus plus logo" 
+                            src="./images/cpp.svg" 
+                        >
+                        <h4 class="my-3 font-Poor-Story" editable="inline">
+                            C plus plus
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/python-5.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Python </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="Python logo" 
+                        src="./images/python-5.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Python
+                    </h4>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/java.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Java </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="Java logo" 
+                        src="./images/java.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Java
+                    </h4>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/javascript.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">JavaScript </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="JavaScript logo"
+                        src="./images/javascript.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        JavaScript
+                    </h4>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img alt="" class="pro-lang-logo img-fluid" src="./images/sql.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Sql </p>
+                    <img 
+                        alt="Sql logo" 
+                        class="pro-lang-logo img-fluid" 
+                        src="./images/sql.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Sql
+                    </h4>
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container" id="tech-and-frameworks">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="lc-block">
-                        <h2 editable="inline" class="display-2 mb-0"><b>Technologies and Frameworks</b></h2>
-                        <p editable="inline" class=""> These are technologies and frameworks i have experience in. </p>
+                        <h2 editable="inline" class="display-2 mb-0 font-Poor-Story">
+                            <b>Technologies and Frameworks</b>
+                        </h2>
+                        <p editable="inline" class="pt-3 font-Exo-2"> 
+                            These are technologies and frameworks i have experience in. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -273,95 +370,149 @@
             <div class="row pt-4">
                 <div class="col-md-4 text-center">
                     <div class="lc-block">
-                        <img alt="html logo" class="img-fluid pro-lang-logo" src="./images/html-5-svgrepo-com.svg">
-                        <h4 class="my-3" editable="inline"></h4>
-                        <p editable="inline">HTML</p>
+                        <img 
+                            alt="html logo" 
+                            class="img-fluid pro-lang-logo" 
+                            src="./images/html-5-svgrepo-com.svg"
+                        >
+                        <h4 class="my-3 font-Poor-Story" editable="inline">
+                            HTML
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
                     <div class="lc-block">
-                        <img class="pro-lang-logo img-fluid" alt="" src="./images/bootstrap-svgrepo-com.svg" >
-                        <h4 class="my-3" editable="inline"></h4>
-                        <p editable="inline">Bootstrap</p>
+                        <img 
+                            class="pro-lang-logo img-fluid" 
+                            alt="Bootstrap logo" 
+                            src="./images/bootstrap-svgrepo-com.svg" 
+                        >
+                        <h4 class="my-3 font-Poor-Story" editable="inline">
+                            Bootstrap
+                        </h4>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/tailwind-svgrepo-com.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Tailwind </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="Tailwind logo" 
+                        src="./images/tailwind-svgrepo-com.svg" >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Tailwind 
+                    </h4>
                 </div>
             </div>
             <div class="row pt-4">
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/angular-icon-svgrepo-com.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Angular </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="Angular logo" 
+                        src="./images/angular-icon-svgrepo-com.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Angular
+                    </h4>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img class="pro-lang-logo img-fluid" alt="" src="./images/react-svgrepo-com.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">React </p>
+                    <img 
+                        class="pro-lang-logo img-fluid" 
+                        alt="React logo" 
+                        src="./images/react-svgrepo-com.svg" 
+                    >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        React 
+                    </h4>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img alt="" class="pro-lang-logo img-fluid" src="./images/nextjs-svgrepo-com.svg" >
-                    <h4 class="my-3" editable="inline"></h4>
-                    <p editable="inline">Next js </p>
+                    <img 
+                        alt="Next js logo" 
+                        class="pro-lang-logo img-fluid" 
+                        src="./images/nextjs-svgrepo-com.svg" >
+                    <h4 class="my-3 font-Poor-Story" editable="inline">
+                        Next js
+                    </h4>
                 </div>
             </div>
         </div>
         
-        <div class="container">
+        <div class="container" id="projects">
             <div class="row align-items-md-center mb-5">
                 <div class="col-md-12">
                     <div class="lc-block text-center">
-                        <h2 editable="inline" class="display-2 mb-0"><b>Projects</b></h2>
-                        <p editable="inline"> These are the projects l've completed. </p>
+                        <h2 editable="inline" class="display-2 mb-0 font-Poor-Story">
+                            <b>
+                                Projects
+                            </b>
+                        </h2>
+                        <p editable="inline" class="font-Exo-2 pt-3"> 
+                            These are the projects l've completed. 
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row align-items-md-center mb-5">
                 <div class="col-lg-6 pr-5">
                     <div class="lc-block py-2">
-                        <span class="badge bg-dark" editable="inline">PROJECT INFO</span>
+                        <span class="badge bg-dark font-Exo-2" editable="inline">
+                            PROJECT INFO
+                        </span>
                     </div>
 
                     <div class="lc-block mb-4">
-                        <h2 editable="inline">Building great projects.</h2>
+                        <h2 editable="inline" class="font-Poor-Story">
+                            Building great projects.
+                        </h2>
                     </div>
 
                     <div class="lc-block">
                         <div class="row">
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">3+</p>
-                                    <p editable="inline" class="small text-uppercase">Languages Used</p>
+                                    <p editable="inline" class="font-Exo-2 f-sz-40 m-0">
+                                        3+
+                                    </p>
+                                    <p editable="inline" class="font-Poor-Story fw-bolder fs-5 text-uppercase">
+                                        Languages Used
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">14+</p>
-                                    <p editable="inline" class="small text-uppercase">Repositories</p>
+                                <div class="font-Exo-2 lc-block mb-4">
+                                    <p editable="inline" class="f-sz-40 m-0">
+                                        14+
+                                    </p>
+                                    <p editable="inline" class="font-Poor-Story fw-bolder fs-5 text-uppercase">
+                                        Repositories
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">6+</p>
-                                    <p editable="inline" class="small text-uppercase">Public Repositories</p>
+                                    <p editable="inline" class="font-Exo-2 f-sz-40 m-0">
+                                        6+
+                                    </p>
+                                    <p editable="inline" class="font-Poor-Story fw-bolder fs-5 text-uppercase">
+                                        Public Repositories
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">360+</p>
-                                    <p editable="inline" class="small text-uppercase">Contributions in the last year</p>
+                                    <p editable="inline" class="font-Exo-2 f-sz-40 m-0">
+                                        360+
+                                    </p>
+                                    <p editable="inline" class="font-Poor-Story fw-bolder fs-5 text-uppercase">
+                                        Contributions in the last year
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="lc-block text-muted">
                         <div editable="rich">
-                            <p> 
+                            <p clas="font-Exo-2"> 
                                 Over the past year, I have undertaken a variety of projects to enhance my skills. 
                                 These projects have ranged from building websites to tackling coding challenges. 
                                 They have allowed me to gain experience in multiple languages and frameworks. 
@@ -372,37 +523,67 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 ">
-                    <div class="lc-block mb-4">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1525296143957-b62256c593bf?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 1" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Coffee</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block mb-4 proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/kos-card.png" 
+                                    alt="Kitchen of secrets logo" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title font-Poor-Story" editable="inline">
+                                        Kitchen Of Secrets Project
+                                    </h3>
+                                    <p class="card-text font-Exo-2" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="lc-block">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1536060316316-2466bda904f1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 2" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Devices</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/school-card.jpg" 
+                                    alt="Featured image 2" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title font-Poor-Story" editable="inline">
+                                        School Website Project
+                                    </h3>
+                                    <p class="card-text font-Exo-2" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 mt-4 mt-sm-0 align-self-center">
-                    <div class="lc-block">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1507831228884-93d43e81a99d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=632&amp;q=80" alt="Featured image 3" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Productivity</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/narly-skates-card.png" 
+                                    alt="Featured image 3" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title font-Poor-Story" editable="inline">
+                                        Landing Page Project
+                                    </h3>
+                                    <p class="card-text font-Exo-2" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -431,13 +612,13 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">2+</p>
+                                    <p editable="inline" class="f-sz-40 m-0">2+</p>
                                     <p editable="inline" class="small text-uppercase">Additinal Languages Used</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">7+</p>
+                                    <p editable="inline" class="f-sz-40 m-0">7+</p>
                                     <p editable="inline" class="small text-uppercase">New Repositories</p>
                                 </div>
                             </div>
@@ -445,13 +626,13 @@
                         <div class="row">
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">4+</p>
+                                    <p editable="inline" class="f-sz-40 m-0">4+</p>
                                     <p editable="inline" class="small text-uppercase">New Public Repositories</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="lc-block mb-4">
-                                    <p editable="inline" class=" m-0" style="font-size:40px;">365+</p>
+                                    <p editable="inline" class="f-sz-40 m-0">365+</p>
                                     <p editable="inline" class="small text-uppercase">Additional Contributions Upcoming</p>
                                 </div>
                             </div>
@@ -471,37 +652,68 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 ">
-                    <div class="lc-block mb-4">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1525296143957-b62256c593bf?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 1" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Coffee</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block mb-4 proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/advent-card.jpg" 
+                                    alt="Featured image 1" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title" editable="inline">
+                                        Advent Of Code 
+                                    </h3>
+                                    <p class="card-text" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="lc-block">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1536060316316-2466bda904f1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" alt="Featured image 2" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Devices</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/grape-quest-card.jpg" 
+                                    alt="Featured image 2" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title" editable="inline">
+                                        Grape Quest
+                                    </h3>
+                                    <p class="card-text" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+
+                        </a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-3 mt-4 mt-sm-0 align-self-center">
-                    <div class="lc-block">
-                        <div class="card shadow-sm border-light">
-                            <img src="https://images.unsplash.com/photo-1507831228884-93d43e81a99d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=632&amp;q=80" alt="Featured image 3" class="card-img-top" loading="lazy">
-                            <div class="card-body">
-                                <h3 class="card-title" editable="inline">Productivity</h3>
-                                <!-- <h4 class="card-subtitle" editable="inline">Card subtitle</h4> -->
-                                <p class="card-text" editable="inline">Some quick example text to build on the card title</p>
+                    <div class="lc-block proj-card">
+                        <a href="./pages/articles/landing-page.html" class="undeco">
+                            <div class="card shadow-sm border-light">
+                                <img 
+                                    src="./images/article-card-images/movie-atlas-card.jpg" 
+                                    alt="Featured image 3" 
+                                    class="card-img-top" 
+                                    loading="lazy"
+                                >
+                                <div class="card-body">
+                                    <h3 class="card-title" editable="inline">
+                                        Movie Atlas
+                                    </h3>
+                                    <p class="card-text" editable="inline">
+                                        Some quick example text to build on the card title
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -600,11 +812,15 @@
         <!--Section: Contact v.2-->
 
         <section>
-            <div class="py-5 container bg-light position-relative rounded">
+            <div class="py-5 container bg-light-purple position-relative rounded">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="lc-block mb-2">
-                            <img alt="logo" class="pro-lang-logo img-fluid" src="./images/bl-logo.svg" >
+                            <img 
+                                alt="logo" 
+                                class="img-fluid hg-10-vh" 
+                                src="./images/bl-logo.svg"
+                            >
                         </div>
                         <div class="lc-block text-dark mb-2">
                             <div editable="rich">
@@ -645,8 +861,8 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid" lc-helper="background" style="height:30vh;background:url(./images/emily-jones-L6WsJ1WS2k8-unsplash.jpg)  center / cover no-repeat;margin-top:-100px"></div>
-        </section>
+            <div class="container-fluid footer-bg-img" lc-helper="background"></div>
+        </section>  
 
     </body>
     <!-- Scripts -->
