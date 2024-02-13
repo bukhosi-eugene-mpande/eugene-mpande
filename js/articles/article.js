@@ -174,72 +174,85 @@ const articles = [
     },
     {
         "title":"Grape Quest Project",
-        "date":"09 February 2024",
+        "date":"13 February 2024",
         "author":"Bukhosi Eugene Mpande",
-        "about":"This blog details the making of the landing page project as part of the Odin Project",
-        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "about":"This blog details the plan for the Grape Quest project.",
+        "repo_link":"https://github.com/Gini24mp/GrapeQuest",
         "paragraphs":[
-            "",
-            ""
+            "Grape Quest is an ambitious full-stack web application that I aim to develop over the next six months. The current blueprint involves leveraging Angular for the front-end and PHP for the backend. I've opted for Angular due to its capacity for rapid development, aligning perfectly with the theme of expedited progress. To maintain efficiency, I intend to employ Tailwind CSS and SCSS for styling, as they are tools with which I am most proficient. Additionally, I've chosen PHP to further hone my skills in the language, especially considering its recent updates and extensive capabilities. Alongside PHP, I'll utilize a relational database to efficiently manage and store data.",
+            "So, what is Grape Quest? It's envisioned as an e-commerce platform specializing in the sale of wine. However, what sets it apart is its distinctive feature—an emphasis on providing detailed information about the origin of the wine. This feature aims to empower wineries to establish and promote their brands effectively, ultimately fostering wine tourism within the country.",
+            "Overall, I anticipate Grape Quest to be an exciting and rewarding project, introducing me to various new web development paradigms. While there are currently no plans to bring the website to market, I envision it serving as an engaging showcase of my evolving skills in the field."
         ],
         "tech_and_pro_langs":[
             {
-                "name":"HyperText Markup Language (HTML)",
-                "use":"The language was used to describe and define the content of a Web page"
+                "name":"Angular",
+                "use":"Used to develope the frontend of the website"
             },
             {
-                "name":"Cascading Style Sheets (CSS)",
-                "use":"Used to describe the appearance of Web content"
+                "name":"PHP",
+                "use":"Used to developed the backend of the site"
+            },
+            {
+                "name":"Javascript",
+                "use":"Used for client side webpage behavior"
+            },
+            {
+                "name":"Tailwind",
+                "use":"Used to style the wesite"
             }
         ],
-        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
-        "banner_img_alt":"Narly Skates"
+        "banner_img_src":"../../images/article-banner-images/grape-quest-banner.jpg",
+        "banner_img_alt":"Grape Quest banner"
     },
     {
         "title":"Movie Atlas Project",
-        "date":"09 February 2024",
+        "date":"14 February 2024",
         "author":"Bukhosi Eugene Mpande",
-        "about":"This blog details the making of the landing page project as part of the Odin Project",
-        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "about":"This blog details the plan for the Movie Atlas project.",
+        "repo_link":"https://github.com/Gini24mp/MovieAtlas",
         "paragraphs":[
-            "",
-            ""
+            "Movie Atlas is an ambitious full-stack web application that I aim to develop over the next six months. Admittedly, the timeline is ambitious, considering the significant number of firsts this project entails for me. Nonetheless, I'm committed to staying as close to the six-month target as possible. The current plan involves leveraging Django for both the front-end and the backend.",
+            "I've opted for Django primarily because I want to exclusively use Python. This decision stems from the fact that this project will be the first in my portfolio to incorporate AI. Given Python's widespread use in AI development, it provides a plethora of tools that will be readily available for me to utilize. While Bootstrap might seem like a mundane choice for styling, I've chosen it for its pre-made components and rapid development capabilities. In this project, however, the true stars will be the integration of AI and sophisticated algorithms in the backend. Thus, the use of Bootstrap is a necessary compromise to ensure efficient development.",
+            "Additionally, I've decided to use MongoDB as the database to store the data, offering flexibility and scalability for the project's needs.",
+            "So, what exactly is Movie Atlas? It's envisioned as a movie recommendation website where users can recommend films based on their viewing history and reviews. AI features will include automatically generated spoiler-free movie reviews, alongside sophisticated algorithms, including a recommendation algorithm built from scratch.",
+            "Overall, I anticipate this project to be the most challenging endeavor I'll undertake in the next six months. However, I believe the knowledge gained from it will be invaluable, especially in light of the continued rise of AI."
         ],
         "tech_and_pro_langs":[
             {
-                "name":"HyperText Markup Language (HTML)",
-                "use":"The language was used to describe and define the content of a Web page"
+                "name":"Django",
+                "use":"Used to develope the frontend and backend of the website"
             },
             {
-                "name":"Cascading Style Sheets (CSS)",
-                "use":"Used to describe the appearance of Web content"
+                "name":"Bootstrap",
+                "use":"Used to style the wesite"
+            },
+            {
+                "name":"Python",
+                "use":"Used for the backend of the site"
             }
         ],
-        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
-        "banner_img_alt":"Narly Skates"
+        "banner_img_src":"../../images/article-banner-images/movie-atlas-banner.jpg",
+        "banner_img_alt":"Movie Atlas Banner"
     },
     {
         "title":"Advent Of Code Project",
-        "date":"09 February 2024",
+        "date":"14 February 2024",
         "author":"Bukhosi Eugene Mpande",
-        "about":"This blog details the making of the landing page project as part of the Odin Project",
-        "repo_link":"https://github.com/Gini24mp/landing-page",
+        "about":"This blog details the plan for the Advent Of Code project.",
+        "repo_link":"https://github.com/Gini24mp/advent-of-code",
         "paragraphs":[
-            "",
-            ""
+            "Advent of Code presents an exciting series of programming puzzles—a veritable Advent calendar catering to a diverse range of skill sets and proficiency levels. These challenges offer enthusiasts the opportunity to flex their coding muscles in whichever programming language they prefer. Whether utilized for interview preparation, corporate training, academic coursework, skill enhancement, competitive engagement, or friendly rivalry, the puzzles serve as versatile tools for honing one's programming prowess.",
+            "My personal objective is to conquer all the Advent of Code challenges using Java, eschewing the assistance of AI helpers like co-pilot. By embarking on this endeavor, I aim to enhance my problem-solving skills and adequately prepare for any upcoming interviews in the coming year. Historically, I've encountered challenges in finding suitable material for interview preparation. Engaging with these puzzles will undoubtedly fill this void, offering a structured and stimulating platform for skill development. Moreover, it provides a compelling reason to engage in programming even on days when motivation may wane.",
+            "In essence, this undertaking promises not only a source of enjoyable problem-solving tasks but also a means to indulge my affinity for grappling with complex conundrums. After all, who doesn't love a good challenge?"
         ],
         "tech_and_pro_langs":[
             {
-                "name":"HyperText Markup Language (HTML)",
-                "use":"The language was used to describe and define the content of a Web page"
-            },
-            {
-                "name":"Cascading Style Sheets (CSS)",
-                "use":"Used to describe the appearance of Web content"
+                "name":"Java",
+                "use":"Used to solve the problems in the advent of code challenges"
             }
         ],
-        "banner_img_src":"../../images/article-banner-images/Narly-Skates-logo.png",
-        "banner_img_alt":"Narly Skates"
+        "banner_img_src":"../../images/article-banner-images/advent-banner.jpg",
+        "banner_img_alt":"Advent Of Code Banner"
     }
 ]
 
