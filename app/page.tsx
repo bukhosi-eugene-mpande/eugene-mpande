@@ -73,7 +73,7 @@ export default function Home() {
             <div className="relative">
               <div className="absolute top-4 left-4 w-full h-full bg-gray-900 rounded-2xl"></div>
               <Image
-                src="/images/about-me.jpg"
+                src={`${basePath}/images/about-me.jpg`}
                 alt="Photo of Eugene Mpande"
                 width={1080}
                 height={1080}

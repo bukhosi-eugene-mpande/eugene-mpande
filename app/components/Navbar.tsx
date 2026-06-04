@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { basePath } from "../utils/basePath";
 
 interface NavbarProps {
   activePage?: "home" | "projects" | "upcoming";
@@ -16,7 +17,7 @@ export default function Navbar({ activePage }: NavbarProps) {
       <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-between flex-wrap py-2 gap-4">
         {/* Brand */}
         <Link href="/" className="flex items-center gap-2 text-2xl font-bold font-poor-story text-gray-900 no-underline">
-          <Image src="/images/bl-logo.svg" alt="Logo" width={80} height={80} />
+          <Image src={`${basePath}/images/bl-logo.svg`} alt="Logo" width={80} height={80} />
           Eugene Mpande
         </Link>
 
@@ -62,10 +63,10 @@ export default function Navbar({ activePage }: NavbarProps) {
         {/* Social icons */}
         <div className="flex items-center gap-2">
           <a href="https://github.com/bukhosi-eugene-mpande" className="p-2 rounded hover:bg-indigo-100">
-            <Image src="/images/github.svg" alt="GitHub" width={41} height={41} />
+            <Image src={`${basePath}/images/github.svg`} alt="GitHub" width={41} height={41} />
           </a>
           <a href="https://www.linkedin.com/in/bukhosi-mpande-6a34a3198" className="p-2 rounded hover:bg-indigo-100">
-            <Image src="/images/linkedin.svg" alt="LinkedIn" width={50} height={50} />
+            <Image src={`${basePath}/images/linkedin.svg`} alt="LinkedIn" width={50} height={50} />
           </a>
         </div>
       </div>
