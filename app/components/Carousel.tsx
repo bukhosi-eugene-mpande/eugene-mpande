@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { basePath } from "../utils/basePath";
 
 interface CarouselSlide {
   imageSrc: string;
@@ -23,7 +24,7 @@ export default function Carousel({ slides }: CarouselProps) {
       <div className="hg-90-vh w-full relative">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={slides[current].imageSrc}
+          src={`${basePath}${slides[current].imageSrc}`}
           alt={slides[current].imageAlt}
           className="w-full hg-90-vh object-cover"
         />

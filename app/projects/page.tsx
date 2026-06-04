@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import Link from "next/link";
 import { getProjectArticles } from "../data/articles";
+import { basePath } from "../utils/basePath";
 
 const carouselSlides = [
   { imageSrc: "/images/article-banner-images/sigmund-4UGmm3WRUoQ-unsplash-projects.jpg", imageAlt: "Projects banner", caption: "Projects" },
@@ -35,7 +36,7 @@ export default function ProjectsPage() {
               <div className="p-2 rounded-3xl bg-light-purple">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={project.card_img_src}
+                  src={`${basePath}${project.card_img_src}`}
                   alt={project.card_img_alt}
                   className="w-full rounded-t-3xl object-cover max-h-48"
                 />

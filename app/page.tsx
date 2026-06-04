@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { getProjectArticles, getUpcomingArticles } from "./data/articles";
+import { basePath } from "./utils/basePath";
 
 const programmingLanguages = [
   { src: "/images/C-Pro-Lang.svg", alt: "C programming language logo", label: "C" },
@@ -44,7 +45,7 @@ export default function Home() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               id="jacaranda"
-              src="/images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg"
+              src={`${basePath}/images/tim-cooper-Mqm9pG8Vpuc-unsplash.jpg`}
               alt="Jacaranda trees in Pretoria"
               loading="lazy"
             />
@@ -123,7 +124,7 @@ export default function Home() {
           {programmingLanguages.map((lang) => (
             <div key={lang.label} className="text-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={lang.src} alt={lang.alt} className="pro-lang-logo mx-auto" />
+              <img src={`${basePath}${lang.src}`} alt={lang.alt} className="pro-lang-logo mx-auto" />
               <h4 className="my-3 font-poor-story text-lg font-semibold">{lang.label}</h4>
             </div>
           ))}
@@ -140,7 +141,7 @@ export default function Home() {
           {technologies.map((tech) => (
             <div key={tech.label} className="text-center">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={tech.src} alt={tech.alt} className="pro-lang-logo mx-auto" />
+              <img src={`${basePath}${tech.src}`} alt={tech.alt} className="pro-lang-logo mx-auto" />
               <h4 className="my-3 font-poor-story text-lg font-semibold">{tech.label}</h4>
             </div>
           ))}
@@ -179,7 +180,7 @@ export default function Home() {
               <Link key={article.slug} href={`/articles/${article.slug}`} className="undeco proj-card">
                 <div className="rounded-lg shadow-sm bg-light-purple overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={article.card_img_src} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
+                  <img src={`${basePath}${article.card_img_src}`} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
                   <div className="p-3">
                     <h3 className="font-poor-story font-bold text-lg">{article.title}</h3>
                     <p className="font-exo-2 text-sm text-gray-700">{article.about}</p>
@@ -193,7 +194,7 @@ export default function Home() {
               <Link key={article.slug} href={`/articles/${article.slug}`} className="undeco proj-card">
                 <div className="rounded-lg shadow-sm bg-light-purple overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={article.card_img_src} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
+                  <img src={`${basePath}${article.card_img_src}`} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
                   <div className="p-3">
                     <h3 className="font-poor-story font-bold text-lg">{article.title}</h3>
                     <p className="font-exo-2 text-sm text-gray-700">{article.about}</p>
@@ -237,7 +238,7 @@ export default function Home() {
               <Link key={article.slug} href={`/articles/${article.slug}`} className="undeco proj-card">
                 <div className="rounded-lg shadow-sm bg-light-purple overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={article.card_img_src} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
+                  <img src={`${basePath}${article.card_img_src}`} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
                   <div className="p-3">
                     <h3 className="font-poor-story font-bold text-lg">{article.title}</h3>
                     <p className="font-exo-2 text-sm text-gray-700">{article.about}</p>
@@ -251,7 +252,7 @@ export default function Home() {
               <Link key={article.slug} href={`/articles/${article.slug}`} className="undeco proj-card">
                 <div className="rounded-lg shadow-sm bg-light-purple overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={article.card_img_src} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
+                  <img src={`${basePath}${article.card_img_src}`} alt={article.card_img_alt} className="w-full object-cover" loading="lazy" />
                   <div className="p-3">
                     <h3 className="font-poor-story font-bold text-lg">{article.title}</h3>
                     <p className="font-exo-2 text-sm text-gray-700">{article.about}</p>

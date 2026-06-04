@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { articles, getArticleBySlug } from "../../data/articles";
+import { basePath } from "../../utils/basePath";
 
 export async function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -31,7 +32,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <div className="mb-6 hg-60-vh rounded-3xl overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={article.banner_img_src}
+            src={`${basePath}${article.banner_img_src}`}
             alt={article.banner_img_alt}
             className="w-full h-full object-cover"
           />
